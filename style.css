@@ -1,0 +1,97 @@
+@keyframes example {
+    0%   {background-color: rgb(210, 105, 30);}
+    25%  {background-color: rgb(210, 87, 30);}
+    50%  {background-color: rgb(210, 42, 30);}
+    100% {background-color: rgb(252, 17, 0);}
+  }
+
+@keyframes wow{
+    0%   {width: 100px; height: 100px;}
+    25%  {width: 400px; height: 400px;}
+    50%  {width: 800px; height: 800px;}
+    100% {width: 900px; height: 900px;}
+}
+
+
+#backround{
+    background-color: rgb(252, 17, 0);
+    position: absolute;
+    top: 0;
+    left:0;
+    bottom:0;
+    right:0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    /*
+    margin-left: auto;
+    margin-right: auto;
+    */
+    animation-name: example;
+    animation-duration: 60s;
+    text-align: center;
+
+}
+
+#dumi{
+margin: 50px auto;
+animation-name: wow;
+animation-duration: 60s;
+width: 900px; 
+height: 900px;
+}
+
+#dumi2{
+    margin: 50px auto;
+    width: 900px; 
+    height: 900px;
+    display: none;
+    }
+
+body{
+    animation-name: example;
+    animation-duration: 60s;
+    background-color: rgb(252, 17, 0);
+
+}
+
+#timer{
+    width: 100%;
+    height: 200px;
+    top: 0;
+    left:0;
+    bottom:0;
+    right:0;
+    background-color: rgb(252, 17, 0); 
+    align-content: center;
+    text-align: center;
+    padding: 20px;
+
+    animation-name: example;
+    animation-duration: 60s;
+}
+
+#timerText{
+    font-family: 'Oswald';
+    font-size: 200px;
+}
+
+#audioClick1{
+    font-size: 100px;
+    margin: 40px 250px;
+    background-color: red;
+    color:bisque;
+    padding: 5px 20px;
+    position: relative;
+
+}
+
+#audioClick2{
+    font-size: 100px;
+    margin: 40px 250px;
+    background-color: red;
+    color:bisque;
+    padding: 5px 20px;
+    position: relative;
+
+}

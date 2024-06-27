@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="backround" >
+        <div id="timer">
+            <table>
+                <tr>
+                    <td>
+                        <button id="audioClick2" onclick="audio2.currentTime=0; audio2.play();" > CIORICI </button>
+                        <script>
+                            const audio2 = new Audio();
+                            audio2.src = "audio2.mp3";
+                        </script>
+                    </td>
+                    <td>
+                        <p id="timerText"></p>
+                        <script src="app.js" ></script>
+                    </td>
+                    <td>
+                        <button id="audioClick1" onclick="audio.currentTime=0; audio.play();" > DUMI </button>
+                    </td>
+
+        </tr>
+        </table>
+        </div>
+        <img src="dumi.png" alt="" id="dumi">
+        <img src="dumi2.jpg" alt="" id="dumi2">
+    </div>
+    <script>
+        setTimeout(function() {
+            document.getElementById("dumi2").style.display = 'block';
+        }, 61000);
+    </script>
+   
+
+</body>
+</html>
